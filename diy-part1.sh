@@ -14,6 +14,7 @@
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 echo >> feeds.conf.default
 echo "src-git helloworld https://github.com/fw876/helloworld" >> feeds.conf.default
+echo "src-git smartdns https://github.com/pymumu/smartdns" >> feeds.conf.default
 # Add a feed source
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i 's#$(Device/tplink-4mlzma)#$(Device/tplink-16mlzma)#g' target/linux/ath79/image/tiny-tp-link.mk
