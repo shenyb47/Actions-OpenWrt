@@ -18,5 +18,5 @@ echo "src-git smartdns https://github.com/pymumu/smartdns.git" >> feeds.conf.def
 # Add a feed source
 # sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 sed -i 's#$(Device/tplink-4mlzma)#$(Device/tplink-16mlzma)#g' target/linux/ath79/image/tiny-tp-link.mk
-sed -i '6a \ \ath79_setup_ar934x_eth_cfg(AR934X_ETH_CFG_SW_ONLY_MODE);' target/linux/ath79/dts/ar9341_tplink_tl-wr841-v8.dts
+# sed -i '6a \ \ath79_setup_ar934x_eth_cfg(AR934X_ETH_CFG_SW_ONLY_MODE);' target/linux/ath79/dts/ar9341_tplink_tl-wr841-v8.dts （语法错）
 
