@@ -15,7 +15,7 @@
 echo >> feeds.conf.default
 echo "src-git helloworld https://github.com/fw876/helloworld" >> feeds.conf.default
 # echo "src-git smartdns https://github.com/pymumu/smartdns.git" >> feeds.conf.default
-# echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git" >> feeds.conf.default
+echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git" >> feeds.conf.default
 # echo "src-git clone https://github.com/tuanqing/install-program package/install-program" >> feeds.conf.default
 echo "src-git AdGuardHome https://github.com/AdguardTeam/AdGuardHome" >> feeds.conf.default
 # Add a feed source
