@@ -18,7 +18,8 @@ echo "src-git helloworld https://github.com/fw876/helloworld" >> feeds.conf.defa
 echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git" >> feeds.conf.default
 # echo "src-git clone https://github.com/tuanqing/install-program package/install-program" >> feeds.conf.default
 echo "src-git AdGuardHome https://github.com/AdguardTeam/AdGuardHome" >> feeds.conf.default
-# Add a feed source
+echo "src-git OpenClash https://github.com/vernesong/OpenClash" >> feeds.conf.default
+# Add a feed source  
 # sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' feeds.conf.default
 # sed -i 's#$(Device/tplink-4mlzma)#$(Device/tplink-16mlzma)#g' target/linux/ath79/image/tiny-tp-link.mk
 # sed -i 's#$(Device/tplink-8mlzma)#$(Device/tplink-16mlzma)#g' target/linux/ath79/image/tiny-tp-link.mk
