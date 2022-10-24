@@ -12,13 +12,15 @@
 
 # Uncomment a feed source
 # sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-echo >> feeds.conf.default echo "src-git helloworld https://github.com/fw876/helloworld" >> feeds.conf.default
-# echo "src-git smartdns https://github.com/pymumu/smartdns.git" >> feeds.conf.default
+# echo >> feeds.conf.default echo "src-git helloworld https://github.com/fw876/helloworld" >> feeds.conf.default
+sed -i "/helloworld/d" "feeds.conf.default"
+echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
+# echo "src-git smartdnsed -i "/helloworld/d" "feeds.conf.default"
 # echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git" >> feeds.conf.default
 # echo "src-git lienol https://github.com/yishan2019/openwrt-package" >> feeds.conf.default
 # echo "src-git clone https://github.com/tuanqing/install-program package/install-program" >> feeds.conf.default
 # echo "src-git AdGuardHome https://github.com/AdguardTeam/AdGuardHome" >> feeds.conf.default
-echo "src-git OpenClash https://github.com/vernesong/OpenClash" >> feeds.conf.default
+echo "src-git OpenClash https://github.com/vernesong/OpenClash" >> "feeds.conf.default"
 # Add a feed source  
 # sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall.git' feeds.conf.default
 # sed -i 's#$(Device/tplink-4mlzma)#$(Device/tplink-16mlzma)#g' target/linux/ath79/image/tiny-tp-link.mk
