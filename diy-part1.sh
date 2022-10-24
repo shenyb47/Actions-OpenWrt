@@ -16,9 +16,10 @@
 sed -i "/helloworld/d" "feeds.conf.default"
 echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
 # echo "src-git smartdnsed -i "/helloworld/d" "feeds.conf.default"
+echo "src-git lienol https://github.com/yishan2019/openwrt-package" >> "feeds.conf.default"
 echo "src-git passwall https://github.com/xiaorouji/openwrt-passwall.git" >> "feeds.conf.default"
 echo "src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git" >> "feeds.conf.default"
-# echo "src-git lienol https://github.com/yishan2019/openwrt-package" >> feeds.conf.default
+
 # echo "src-git clone https://github.com/tuanqing/install-program package/install-program" >> feeds.conf.default
 # echo "src-git AdGuardHome https://github.com/AdguardTeam/AdGuardHome" >> feeds.conf.default
 echo "src-git OpenClash https://github.com/vernesong/OpenClash" >> "feeds.conf.default"
