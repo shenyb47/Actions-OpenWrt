@@ -12,4 +12,6 @@ src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git
 src-git nas https://github.com/linkease/nas-packages.git;master
 src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main
 src-git passwall https://github.com/kenzok8/openwrt-packages/tree/master/luci-app-passwall.git
+src-git AdGuardHome https://github.com/AdguardTeam/AdGuardHome
+src-git OpenClash https://github.com/vernesong/OpenClash.git
 
