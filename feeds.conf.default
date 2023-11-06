@@ -5,9 +5,7 @@ src-git luci https://github.com/coolsnowwolf/luci
 src-git routing https://github.com/coolsnowwolf/routing
 src-git telephony https://git.openwrt.org/feed/telephony.git
 src-git oui https://github.com/zhaojh329/oui.git
-src-git nas https://github.com/linkease/nas-packages.git;master
-src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main
-src-git istore https://github.com/linkease/istore
+#src-git istore https://github.com/linkease/istore
 src-git freifunk https://github.com/freifunk/openwrt-packages.git
 src-git kenzo https://github.com/kenzok8/openwrt-packages
 src-git small https://github.com/kenzok8/small
