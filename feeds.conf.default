@@ -16,5 +16,5 @@ src-git passwall https://github.com/xiaorouji/openwrt-passwall.git
 src-git passwall2 https://github.com/xiaorouji/openwrt-passwall2.git
 src-git helloworld1 https://github.com/sbwml/openwrt_helloworld
 src-git AdGuardHome https://github.com/AdguardTeam/AdGuardHome
-src-git bypass https://github.com/kiddin9/openwrt-bypass.git
+#src-git bypass https://github.com/kiddin9/openwrt-bypass.git
 
